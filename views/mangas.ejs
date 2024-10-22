@@ -83,7 +83,6 @@
         <table class="table table-striped table-hover">
             <thead>
                 <tr>
-                    <th>ID Manga</th>
                     <th>Nombre del Manga</th>
                     <th>Autor</th>
                     <th>Género</th>
@@ -94,7 +93,6 @@
             <tbody>
                 <% mangas.forEach(function(manga) { %>
                     <tr class="manga-row">
-                        <td><%= manga.idmanga %></td>
                         <td><a href="/mangas/<%= manga.NomManga %>"><%= manga.NomManga %></a></td>
                         <td><%= manga.Autor %></td>
                         <td><%= manga.Genero %></td>

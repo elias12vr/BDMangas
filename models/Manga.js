@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Crear un esquema para el documento (tabla)
 const mangaSchema = new mongoose.Schema({
-    idmanga: { type: Number, required: true },
+    _id: { type: Number, required: true },
     NomManga: { type: String, required: true },
     Autor: { type: String, required: true },
     Genero: { type: String, required: true },
